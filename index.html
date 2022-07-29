@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Inicio del menú de navegación -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">MUNDO MÁGICO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Ubicaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./criaturas.html">Criaturas mágicas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Educación
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="./escuelas.html">Escuelas y Colegios</a></li>
+                                <li><a class="dropdown-item" href="#">Casas</a></li>
+                                <li><a class="dropdown-item" href="#">Materias</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin del menú de navegación -->
+    </header>
+    <main class="main">
+        <img src="./img/Wizarding-World.jpg" alt="">
+        <h1 class="main__h1">Mundo Mágico</h1>
+        <!-- Accordion de información general -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Qué es el mundo mágico?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        También conocido como la <strong>comunidad mágica</strong>, es la sociedad en la que los magos y
+                        brujas viven e interactúan, separados de la sociedad no mágica. Las dos comunidades se mantienen
+                        separadas mediante el uso de encantamientos, hechizos y el secreto de la existencia de cualquier
+                        cosa relacionada con la magia debido al Estatuto Internacional del Secreto Mágico. Cada país
+                        tiene una forma de gobierno mágico para supervisar los asuntos mágicos en su territorio, como un
+                        Ministerio de Magia o un Consejo de Magia. La Confederación Internacional de Magos sirve como
+                        una organización intergubernamental mágica.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ministerio de magia
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Un Ministerio de Magia es el principal órgano rector de la comunidad mágica en muchos países.
+                        Estos ministerios están dirigidos por un <strong>Ministro de Magia</strong> o el equivalente
+                        local. El Ministro
+                        es elegido democráticamente, pero se desconoce quién tiene el poder para elegirlo, aunque parece
+                        haber algún grado de participación de la población mágica en general. La duración del mandato
+                        parece no ser fija; el mandato más largo conocido fue el del ministro británico Faris Spavin,
+                        quien estuvo en el cargo de 1865 a 1903, un total de treinta y ocho años.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Estatuto Internacional del Secreto Mágico
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Fue establecido en 1692 por la <strong>Confederación Internacional de Magos</strong> para salvaguardar a la
+                        comunidad mágica de los muggles y ocultar su presencia al mundo en general.
+
+                        El Ministerio no responde a ninguna parte del gobierno muggle, pero su jefe se vio obligado a
+                        informar al Primer Ministro de los eventos que podrían causar algún peligro para la comunidad
+                        muggle, como criminales fugitivos o la importación de criaturas mágicas altamente peligrosas.[6]
+                        Otras excepciones a este secreto incluyen a los parientes muggles de los magos los cuales tienen
+                        conocimiento del mundo mágico e incluso pueden visitar algunos establecimientos mágicos.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin del Accordion -->
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
